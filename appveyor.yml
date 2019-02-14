@@ -9,7 +9,6 @@ environment:
 
 assembly_info:
   patch: true
-  file: "src/HtmlSanitizer/Properties/AssemblyInfo.cs"
   assembly_version: '{version}'
 
 nuget:
