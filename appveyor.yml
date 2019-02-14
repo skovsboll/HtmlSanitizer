@@ -6,6 +6,12 @@ environment:
     secure: Eq6BjtZ80BXKLwFMg76IjuQAvbLjbojIF/X/ARouGVhxPneJtgDfCXMPNgJ7KBKq
   sonar_token:
     secure: W7pHKhuTW6Lh8WlXJNTOIaOzeuxLi+H6Nqmnm4pr28jM6jyIpOZ+1r10lIQi0eCA
+
+assembly_info:
+  patch: true
+  file: src/HtmlSanitizer/Properties/AssemblyInfo.cs
+  assembly_version: '{version}'
+
 nuget:
   disable_publish_on_pr: true
 build_script:
